@@ -1,6 +1,12 @@
+@use "../../libs/normalize.css/normalize";
+@use "presets/skin";
+@use "presets/variables";
 
-/* @use "../../libs/normalize.css/normalize";
-@use "../scss/common/typography";
+@use "mixins/mixins";
+@use "mixins/mixins-media";
+@use "mixins/extends";
+
+@use "common/typography";
 @use "common/classes";
 
 @use "components/header/header";
@@ -15,16 +21,9 @@
 @use "components/sections/section-form";
 @use "components/sections/section-posts";
 
-@use "components/footer/footer"; */
+@use "components/footer/footer";
 
-@use "../../libs/normalize.css/normalize";
 
-@use "common";
-@use "components/header";
-@use "components/skills";
 
-@use "components/about";
-@use "components/form";
-@use "components/posts";
 
-@use "components/footer";
+
