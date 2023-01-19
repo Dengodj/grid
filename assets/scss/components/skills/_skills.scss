@@ -1,0 +1,5 @@
+@use "../../presets/index" as *;
+@use "../../mixins/index" as *;
+@use "sass:math";
+
+$local-gap: math.div(40px, 3);
